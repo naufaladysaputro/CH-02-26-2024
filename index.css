@@ -1,0 +1,54 @@
+h1 {
+    /* font-size: 30px;
+    color: blue; */
+}
+
+/* CSS untuk screen di bawah atau setara dengan 600px lebar/wide screen */
+@media (max-width: 600px) {
+    /* h1 {
+        font-size: 6px;
+        color: yellow;
+    } */
+}
+
+@media(orientation: landscape) and (max-width: 800px) {
+    /* h1 {
+        color: red;
+    } */
+}
+
+@media(max-width: 600px){
+
+.card {
+    width: 100px;
+    display: block;
+    text-align: justify;
+
+    }
+
+.card img {
+    width: 100px;
+
+}
+.h1 {
+    text-align: center;
+}
+}
+
+
+.left-section {
+    float: left;
+}
+
+.left-section img{
+    object-fit: cover;
+}
+
+
+.right-section {
+    float: right;
+}
+
+.right-section img{
+    object-fit: cover;
+}
